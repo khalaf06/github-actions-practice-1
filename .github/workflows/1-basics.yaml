@@ -27,6 +27,7 @@ jobs:
           echo "Current User: $(whoami)"
           echo "Working Directory: $(pwd)"
 
+
       - name: Create and display a file
         run: |
           echo "This is a test file" > test.txt
